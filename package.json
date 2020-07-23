@@ -1,0 +1,15 @@
+{
+  "name": "university-fe",
+  "version": "1.0.0",
+  "description": "The front-end repository of university project",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "Zhanbolat Orakbayev",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
