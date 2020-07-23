@@ -1,6 +1,7 @@
 {
   "name": "university-fe",
-  "version": "1.0.0",
+  "version": "0.0.0",
+  "private": true,
   "description": "The front-end repository of university project",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
