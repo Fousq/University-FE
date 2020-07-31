@@ -5,7 +5,7 @@ const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 module.exports = {
     mode: 'development',
     entry:  {
-        authentication: './src/authentication/index.js'
+        login: './src/login/index.js'
     },
     output: {
         filename: '[name].bundle.js',
@@ -17,13 +17,13 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.css$/i,
-                use: ['style-loader', 'css-loader']
+                test: /\.s[ac]ss$/i,
+                use: ['style-loader', 'css-loader', 'sass-loader']
             }
         ]
     },
     plugins: [
-        new HtmlWebpackPlugin({ template: './src/authentication/index.html'}),
+        new HtmlWebpackPlugin({ template: './src/login/index.html'}),
         new CleanWebpackPlugin()
     ]
 }
